@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 86px;
 }
 
 h2 {
@@ -101,4 +101,24 @@ p {
 .app-paragraphs {
   background: none;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 66px;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  h2,
+  .app-paragraphs {
+    text-align: left;
+  }
+  .hello {
+    text-align: center;
+  }
 }
